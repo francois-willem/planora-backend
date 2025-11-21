@@ -23,7 +23,7 @@ Express.js REST API server for the Planora multi-business scheduling management 
    ```env
    MONGO_URI=mongodb://localhost:27017/planora
    # Or for MongoDB Atlas:
-   # MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/planora
+   # MONGO_URI="YOUR_MONGODB_URI_HERE"
    
    JWT_SECRET=your-super-secret-jwt-key-here-change-in-production
    PORT=4000
