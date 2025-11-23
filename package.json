@@ -2,9 +2,9 @@
   "name": "planora-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node src/index.js",
     "dev": "nodemon server.js",
     "cleanup": "node cleanupDatabaseSafe.js",
     "cleanup-all": "node cleanupDatabase.js",
